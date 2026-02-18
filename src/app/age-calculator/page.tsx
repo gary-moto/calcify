@@ -5,11 +5,19 @@ import CalculatorSchema from "@/components/CalculatorSchema";
 
 export const metadata: Metadata = {
   title: "Age Calculator - Calculate Your Exact Age",
-  description: "Free online age calculator. Find your exact age in years, months, days, hours and minutes. Calculate days until your next birthday. Fast and accurate.",
-  keywords: ["age calculator", "calculate age", "how old am I", "birthday calculator", "age in days", "exact age"],
+  description: "Free online age calculator. Find your exact age in years, months, days, hours and minutes. Calculate days until your next birthday. Works for any date of birth.",
+  keywords: [
+    "age calculator", "calculate age", "how old am I", "birthday calculator",
+    "age in days", "exact age", "age calculator online", "free age calculator",
+    "calculate my age", "age from date of birth", "date of birth calculator",
+    "age in months", "age in hours", "age in minutes", "next birthday calculator",
+    "chronological age calculator", "how many days old am I",
+  ],
+  alternates: { canonical: "https://calcify.io/age-calculator" },
   openGraph: {
     title: "Age Calculator - Calculate Your Exact Age",
     description: "Find your exact age in years, months, days, hours and minutes. Free online calculator.",
+    url: "https://calcify.io/age-calculator",
   },
 };
 

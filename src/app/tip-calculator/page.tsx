@@ -5,8 +5,20 @@ import CalculatorSchema from "@/components/CalculatorSchema";
 
 export const metadata: Metadata = {
   title: "Tip Calculator - Calculate Tips & Split Bills",
-  description: "Free online tip calculator. Calculate the tip amount and total bill. Split the bill between multiple people with custom tip percentages.",
-  keywords: ["tip calculator", "calculate tip", "bill splitter", "restaurant tip", "gratuity calculator", "split bill"],
+  description: "Free online tip calculator. Calculate the tip amount and total bill. Split the bill between multiple people with custom tip percentages. Works for restaurants, delivery, and services.",
+  keywords: [
+    "tip calculator", "calculate tip", "bill splitter", "restaurant tip",
+    "gratuity calculator", "split bill", "tip calculator online",
+    "how much to tip", "20 percent tip calculator", "15 percent tip",
+    "bill split calculator", "restaurant bill calculator", "service tip calculator",
+    "delivery tip calculator", "tip per person", "divide bill calculator",
+  ],
+  alternates: { canonical: "https://calcify.io/tip-calculator" },
+  openGraph: {
+    title: "Tip Calculator - Calculate Tips & Split Bills",
+    description: "Calculate the tip amount and total bill. Split between multiple people. Free online calculator.",
+    url: "https://calcify.io/tip-calculator",
+  },
 };
 
 export default function TipCalculatorPage() {

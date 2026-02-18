@@ -5,11 +5,20 @@ import CalculatorSchema from "@/components/CalculatorSchema";
 
 export const metadata: Metadata = {
   title: "Pregnancy Calculator - Due Date & Week Calculator",
-  description: "Free pregnancy calculator. Calculate your due date, current week, trimester, and pregnancy milestones. Track your pregnancy journey from conception to birth.",
-  keywords: ["pregnancy calculator", "due date calculator", "pregnancy week calculator", "conception calculator", "pregnancy countdown", "trimester calculator"],
+  description: "Free pregnancy calculator. Calculate your due date, current week, trimester, and pregnancy milestones. Track your pregnancy journey from LMP or conception date.",
+  keywords: [
+    "pregnancy calculator", "due date calculator", "pregnancy week calculator",
+    "conception calculator", "pregnancy countdown", "trimester calculator",
+    "when is my due date", "how far along am I", "pregnancy month calculator",
+    "LMP calculator", "estimated due date", "EDD calculator",
+    "baby due date", "pregnancy tracker", "weeks pregnant calculator",
+    "first trimester calculator", "conception date calculator",
+  ],
+  alternates: { canonical: "https://calcify.io/pregnancy-calculator" },
   openGraph: {
     title: "Pregnancy Calculator - Due Date & Week Calculator",
     description: "Calculate your due date, current pregnancy week, and important milestones. Free and accurate.",
+    url: "https://calcify.io/pregnancy-calculator",
   },
 };
 

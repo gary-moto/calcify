@@ -5,8 +5,20 @@ import CalculatorSchema from "@/components/CalculatorSchema";
 
 export const metadata: Metadata = {
   title: "Date Calculator - Days Between Dates",
-  description: "Free online date calculator. Calculate the number of days between two dates, add or subtract days from any date, find day of week for any date.",
-  keywords: ["date calculator", "days between dates", "date difference", "add days to date", "day of week calculator"],
+  description: "Free online date calculator. Calculate the number of days, weeks, months between two dates. Add or subtract days from any date. Find day of week for any date.",
+  keywords: [
+    "date calculator", "days between dates", "date difference", "add days to date",
+    "day of week calculator", "date calculator online", "how many days between",
+    "how many days until", "subtract days from date", "weeks between dates",
+    "months between dates", "business days calculator", "countdown calculator",
+    "date duration calculator", "days from today", "date math calculator",
+  ],
+  alternates: { canonical: "https://calcify.io/date-calculator" },
+  openGraph: {
+    title: "Date Calculator - Days Between Dates",
+    description: "Calculate days between dates, add or subtract days, find day of week. Free online calculator.",
+    url: "https://calcify.io/date-calculator",
+  },
 };
 
 export default function DateCalculatorPage() {

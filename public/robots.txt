@@ -1,6 +1,6 @@
-# robots.txt for CalcHub
+# robots.txt for Calcify
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://calchub.com/sitemap.xml
+Sitemap: https://calcify.io/sitemap.xml

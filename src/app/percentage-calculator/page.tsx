@@ -5,8 +5,21 @@ import CalculatorSchema from "@/components/CalculatorSchema";
 
 export const metadata: Metadata = {
   title: "Percentage Calculator - Calculate Percentages Easily",
-  description: "Free online percentage calculator. Calculate what percent one number is of another, find percentage increase or decrease, and solve any percentage problem.",
-  keywords: ["percentage calculator", "percent calculator", "calculate percentage", "percentage increase", "percentage decrease", "what percent"],
+  description: "Free online percentage calculator. Calculate what percent one number is of another, find percentage increase or decrease, calculate discounts, markups, and more.",
+  keywords: [
+    "percentage calculator", "percent calculator", "calculate percentage",
+    "percentage increase", "percentage decrease", "what percent",
+    "percentage calculator online", "percentage change calculator",
+    "discount calculator", "markup calculator", "percentage difference",
+    "percentage of a number", "how to calculate percentage",
+    "percent off calculator", "grade percentage calculator", "x is what percent of y",
+  ],
+  alternates: { canonical: "https://calcify.io/percentage-calculator" },
+  openGraph: {
+    title: "Percentage Calculator - Calculate Percentages Easily",
+    description: "Calculate percentages easily. Percentage increase, decrease, discounts and more. Free online calculator.",
+    url: "https://calcify.io/percentage-calculator",
+  },
 };
 
 export default function PercentageCalculatorPage() {
