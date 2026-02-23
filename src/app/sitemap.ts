@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/percentage-calculator',
     '/date-calculator',
     '/tip-calculator',
+    '/privacy-policy',
+    '/terms',
   ];
 
   return calculators.map((path) => ({
