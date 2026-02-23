@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Calendar, Percent, Clock, Receipt, ArrowRight, Baby } from "lucide-react";
+import { Calendar, Percent, Clock, Receipt, ArrowRight, Baby, Scale } from "lucide-react";
 import CalculatorLayout from "@/components/CalculatorLayout";
 
 const calculators = [
@@ -42,6 +42,14 @@ const calculators = [
     icon: Percent,
     color: "bg-blue-500",
     lightColor: "bg-blue-50",
+  },
+  {
+    href: "/tariff-calculator",
+    title: "Tariff Calculator",
+    description: "Calculate US import tariffs, duties, and total landed costs. Estimate how tariffs affect the price of imported goods.",
+    icon: Scale,
+    color: "bg-red-500",
+    lightColor: "bg-red-50",
   },
 ];
 

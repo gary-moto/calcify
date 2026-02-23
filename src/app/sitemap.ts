@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/percentage-calculator',
     '/date-calculator',
     '/tip-calculator',
+    '/tariff-calculator',
     '/privacy-policy',
     '/terms',
   ];

@@ -11,6 +11,7 @@ const calculators = [
   { href: "/tip-calculator", label: "Tip", fullLabel: "Tip Calculator" },
   { href: "/date-calculator", label: "Date", fullLabel: "Date Calculator" },
   { href: "/percentage-calculator", label: "Percentage", fullLabel: "Percentage Calculator" },
+  { href: "/tariff-calculator", label: "Tariff", fullLabel: "Tariff Calculator" },
 ];
 
 export default function Header() {

@@ -28,6 +28,9 @@ export default function Footer() {
             <Link href="/percentage-calculator" className="hover:text-indigo-600 transition-colors">
               Percentage Calculator
             </Link>
+            <Link href="/tariff-calculator" className="hover:text-indigo-600 transition-colors">
+              Tariff Calculator
+            </Link>
           </nav>
         </div>
         
