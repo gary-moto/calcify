@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Calendar, Percent, Clock, Receipt, ArrowRight, Baby, Scale } from "lucide-react";
+import { Calendar, Percent, Clock, Receipt, ArrowRight, Baby, Scale, Landmark, FileText } from "lucide-react";
 import CalculatorLayout from "@/components/CalculatorLayout";
 
 const calculators = [
@@ -50,6 +50,22 @@ const calculators = [
     icon: Scale,
     color: "bg-red-500",
     lightColor: "bg-red-50",
+  },
+  {
+    href: "/mortgage-calculator",
+    title: "Mortgage Calculator",
+    description: "Calculate monthly mortgage payments, total interest, and view amortization schedules. Includes property tax, insurance, and PMI.",
+    icon: Landmark,
+    color: "bg-cyan-600",
+    lightColor: "bg-cyan-50",
+  },
+  {
+    href: "/tax-calculator",
+    title: "Tax Calculator",
+    description: "Estimate your federal income tax, FICA taxes, state tax, effective rate, and take-home pay with 2025 tax brackets.",
+    icon: FileText,
+    color: "bg-amber-600",
+    lightColor: "bg-amber-50",
   },
 ];
 

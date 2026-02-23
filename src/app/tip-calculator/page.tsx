@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     "how much to tip", "20 percent tip calculator", "15 percent tip",
     "bill split calculator", "restaurant bill calculator", "service tip calculator",
     "delivery tip calculator", "tip per person", "divide bill calculator",
+    "how much tip for waiter", "tip on 50 dollars", "tip on 100 dollar bill",
+    "uber eats tip calculator", "doordash tip calculator", "pizza delivery tip",
+    "hairdresser tip calculator", "hotel tip calculator", "bar tip calculator",
+    "18 percent tip calculator", "25 percent tip", "tip calculator with tax",
+    "tip split between friends", "group dinner bill splitter", "fair tip calculator",
+    "how much to tip in USA", "tipping etiquette calculator",
   ],
   alternates: { canonical: "https://calcify.io/tip-calculator" },
   openGraph: {

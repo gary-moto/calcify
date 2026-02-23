@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     "calculate my age", "age from date of birth", "date of birth calculator",
     "age in months", "age in hours", "age in minutes", "next birthday calculator",
     "chronological age calculator", "how many days old am I",
+    "what is my age today", "age difference calculator", "born in 1990 how old",
+    "how many days until my birthday", "age calculator between two dates",
+    "how old will I be in 2030", "days since birth", "years months days calculator",
+    "age on specific date", "korean age calculator", "lunar age calculator",
+    "age in weeks", "how many seconds old am I", "exact age in years and months",
+    "calculate age for passport", "age verification calculator",
   ],
   alternates: { canonical: "https://calcify.io/age-calculator" },
   openGraph: {

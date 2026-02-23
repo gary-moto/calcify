@@ -12,7 +12,14 @@ export const metadata: Metadata = {
     "China tariff calculator", "trade war calculator", "landed cost calculator",
     "customs calculator", "import cost calculator", "duty calculator",
     "how much is tariff", "tariff on imports", "2026 tariff rates",
-    "trump tariff calculator", "15 percent tariff calculator",
+    "trump tariff calculator", "section 232 tariff calculator",
+    "steel tariff calculator", "aluminum tariff calculator", "auto tariff calculator",
+    "import from China cost", "customs duty on electronics", "tariff on clothing",
+    "how much duty on imports", "US customs duty rates", "de minimis threshold",
+    "tariff lookup", "HTS code calculator", "harmonized tariff schedule",
+    "IEEPA tariff supreme court", "tariff cost estimator", "landed cost estimator",
+    "how tariffs affect prices", "tariff percentage by country",
+    "Canada tariff rate 2026", "Mexico tariff rate 2026", "EU tariff rate",
   ],
   alternates: { canonical: "https://calcify.io/tariff-calculator" },
   openGraph: {
@@ -66,14 +73,14 @@ export default function TariffCalculatorPage() {
               <span className="text-xl">🏛️</span>
               <h3 className="font-semibold text-gray-900">Base Tariff Rate</h3>
             </div>
-            <p className="text-gray-600 text-sm">The standard duty rate applied to imported goods, currently 15% for most categories as of 2026.</p>
+            <p className="text-gray-600 text-sm">Section 232 tariffs cover a wide range of products: steel (25%), aluminum (25%), autos (25%), plus lumber, furniture, heavy trucks, semiconductors, pharma, and copper. The IEEPA tariffs were struck down but Section 232 remains.</p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
             <div className="flex items-center gap-3 mb-2">
               <span className="text-xl">🌍</span>
               <h3 className="font-semibold text-gray-900">Country-Specific Tariffs</h3>
             </div>
-            <p className="text-gray-600 text-sm">Some countries face additional tariffs. For example, Chinese imports have an extra 20% duty on top of the base rate.</p>
+            <p className="text-gray-600 text-sm">Tariff rates vary by product and country of origin. Check the HTS code for your specific product at hts.usitc.gov for exact rates.</p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
             <div className="flex items-center gap-3 mb-2">
@@ -102,8 +109,10 @@ export default function TariffCalculatorPage() {
               <h3 className="font-semibold text-gray-900">What are the current US tariff rates?</h3>
             </div>
             <p className="text-gray-600 text-sm">
-              As of February 2026, the US applies a 15% base tariff on most imports worldwide. 
-              Steel and aluminum face 25% tariffs, and Chinese goods have an additional 20% duty.
+              As of February 2026, Section 232 tariffs remain in effect: 25% on steel, aluminum, autos, 
+              plus tariffs on lumber, furniture, heavy trucks, semiconductors, pharma, and copper. 
+              The Supreme Court struck down IEEPA tariffs but Section 232 tariffs are unaffected. 
+              Average effective rate: ~6.7% on all imports. Verify at hts.usitc.gov.
             </p>
           </div>
           <div className="bg-gray-50 rounded-xl p-5">

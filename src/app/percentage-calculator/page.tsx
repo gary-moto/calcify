@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     "discount calculator", "markup calculator", "percentage difference",
     "percentage of a number", "how to calculate percentage",
     "percent off calculator", "grade percentage calculator", "x is what percent of y",
+    "what is 20 percent of 100", "15 percent of 200", "how to find percentage",
+    "percentage formula", "percent increase between two numbers",
+    "sale discount calculator", "tax percentage calculator", "GPA percentage calculator",
+    "test score percentage", "fraction to percentage", "decimal to percent",
+    "percentage error calculator", "profit margin percentage", "body fat percentage calculator",
+    "percentage growth calculator", "year over year percentage change",
+    "how to calculate percentage increase", "how to calculate percentage decrease",
   ],
   alternates: { canonical: "https://calcify.io/percentage-calculator" },
   openGraph: {

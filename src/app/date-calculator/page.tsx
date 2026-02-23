@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     "how many days until", "subtract days from date", "weeks between dates",
     "months between dates", "business days calculator", "countdown calculator",
     "date duration calculator", "days from today", "date math calculator",
+    "how many days until christmas", "how many days until summer", "days until new year",
+    "90 days from today", "30 days from now", "60 days from today calculator",
+    "how many weeks until", "time between two dates", "working days calculator",
+    "how many days since", "days ago calculator", "what date is 100 days from now",
+    "weeks and days calculator", "years between dates", "how long ago was",
+    "what day of the week was", "day counter", "event countdown calculator",
   ],
   alternates: { canonical: "https://calcify.io/date-calculator" },
   openGraph: {

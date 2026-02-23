@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/date-calculator',
     '/tip-calculator',
     '/tariff-calculator',
+    '/mortgage-calculator',
+    '/tax-calculator',
     '/privacy-policy',
     '/terms',
   ];

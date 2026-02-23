@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     "LMP calculator", "estimated due date", "EDD calculator",
     "baby due date", "pregnancy tracker", "weeks pregnant calculator",
     "first trimester calculator", "conception date calculator",
+    "pregnancy due date from last period", "IVF due date calculator",
+    "how many weeks pregnant am I", "pregnancy calendar", "gestational age calculator",
+    "due date by ultrasound", "pregnancy milestone tracker", "baby countdown calculator",
+    "expected delivery date", "9 month calculator pregnancy", "40 week calculator",
+    "due date based on conception", "pregnancy progress calculator",
+    "second trimester when", "third trimester calculator", "due date from ovulation",
   ],
   alternates: { canonical: "https://calcify.io/pregnancy-calculator" },
   openGraph: {

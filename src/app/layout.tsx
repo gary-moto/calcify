@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({
@@ -14,15 +14,19 @@ export const metadata: Metadata = {
     default: "Calcify - Free Online Calculators",
     template: "%s | Calcify",
   },
-  description: "Free online calculators for everyday math. Age calculator, pregnancy due date calculator, percentage calculator, date calculator, tip calculator and more. Fast, accurate, no signup required.",
+  description: "Free online calculators for everyday math. Pregnancy due date, age, tip, date, percentage, tariff, mortgage, and income tax calculators. Fast, accurate, mobile-friendly — no signup required. Updated for 2025-2026.",
   keywords: [
-    "calculator", "online calculator", "free calculator", "math calculator",
-    "age calculator", "how old am I", "birthday calculator",
-    "pregnancy calculator", "due date calculator", "pregnancy week calculator",
-    "percentage calculator", "percent calculator", "percentage increase calculator",
-    "date calculator", "days between dates", "date difference calculator",
-    "tip calculator", "bill splitter", "gratuity calculator",
-    "calcify", "calcify.io", "everyday calculator", "quick calculator",
+    "calculator", "online calculator", "free calculator", "math calculator", "quick calculator",
+    "age calculator", "how old am I", "birthday calculator", "calculate my age",
+    "pregnancy calculator", "due date calculator", "pregnancy week calculator", "when is my baby due",
+    "percentage calculator", "percent calculator", "percentage increase calculator", "how to calculate percentage",
+    "date calculator", "days between dates", "date difference calculator", "how many days until",
+    "tip calculator", "bill splitter", "gratuity calculator", "how much to tip",
+    "tariff calculator", "import duty calculator", "customs duty calculator", "US tariff calculator",
+    "mortgage calculator", "home loan calculator", "monthly payment calculator", "how much house can I afford",
+    "tax calculator", "income tax calculator", "federal tax calculator", "take home pay calculator", "tax bracket calculator",
+    "calcify", "calcify.io", "everyday calculator", "useful calculators", "all in one calculator",
+    "free online tools", "no signup calculator", "instant calculator", "fast calculator",
   ],
   authors: [{ name: "Calcify" }],
   metadataBase: new URL("https://calcify.io"),
@@ -72,12 +76,14 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </head>
-      <body className={`${inter.className} antialiased min-h-screen flex flex-col`}>
-        <Header />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
+      <body className={`${inter.className} antialiased min-h-screen flex`}>
+        <Sidebar />
+        <div className="flex-1 flex flex-col min-h-screen pt-14 lg:pt-0">
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
