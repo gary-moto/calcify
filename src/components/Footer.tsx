@@ -37,6 +37,14 @@ export default function Footer() {
           </nav>
         </div>
 
+        {/* Sister sites */}
+        <div className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-gray-400">
+          <span>Our other tools:</span>
+          <a href="https://wordbit.io" className="hover:text-indigo-600 transition-colors">WordBit — Text Tools</a>
+          <a href="https://quickpix.io" className="hover:text-indigo-600 transition-colors">QuickPix — Image Tools</a>
+          <a href="https://devpop.io" className="hover:text-indigo-600 transition-colors">DevPop — Dev Tools</a>
+        </div>
+
         {/* Bottom row: Copyright + Legal */}
         <div className="mt-6 pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-400">
           <span>© {new Date().getFullYear()} Calcify. All rights reserved.</span>
