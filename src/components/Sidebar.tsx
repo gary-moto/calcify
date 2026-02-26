@@ -36,6 +36,7 @@ export default function Sidebar() {
       <div className="lg:hidden fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-sm h-14 flex items-center px-4">
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
+          aria-label="Toggle navigation menu"
           className="p-2 text-gray-600 hover:text-gray-900"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -97,6 +98,7 @@ export default function Sidebar() {
         {/* Collapse toggle - desktop only */}
         <button
           onClick={() => setCollapsed(!collapsed)}
+          aria-label="Toggle sidebar"
           className="hidden lg:flex items-center justify-center h-10 border-t border-gray-100 text-gray-400 hover:text-gray-600 transition-colors flex-shrink-0"
         >
           {collapsed ? <ChevronRight className="w-4 h-4" /> : <ChevronLeft className="w-4 h-4" />}

@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tariff-calculator',
     '/mortgage-calculator',
     '/tax-calculator',
+    '/about',
     '/privacy-policy',
     '/terms',
   ];

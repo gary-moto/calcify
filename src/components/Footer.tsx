@@ -41,8 +41,9 @@ export default function Footer() {
         <div className="mt-6 pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-400">
           <span>© {new Date().getFullYear()} Calcify. All rights reserved.</span>
           <nav className="flex gap-4">
-            <Link href="/privacy-policy" className="hover:text-indigo-600 transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-indigo-600 transition-colors">Terms of Use</Link>
+            <Link href="/about" className="hover:text-indigo-600 transition-colors">About</Link>
+            <Link href="/privacy-policy" className="hover:text-indigo-600 transition-colors">Privacy</Link>
+            <Link href="/terms" className="hover:text-indigo-600 transition-colors">Terms</Link>
           </nav>
         </div>
       </div>

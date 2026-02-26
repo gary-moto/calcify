@@ -40,11 +40,13 @@ export const metadata: Metadata = {
     siteName: "Calcify",
     title: "Calcify - Free Online Calculators",
     description: "Free online calculators for everyday math. Fast, accurate, no signup required.",
+    images: [{ url: "https://calcify.io/og-image.png", width: 1200, height: 630, alt: "Calcify - Free Online Calculators" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Calcify - Free Online Calculators",
     description: "Free online calculators for everyday math. Fast, accurate, no signup required.",
+    images: ["https://calcify.io/og-image.png"],
   },
   robots: {
     index: true,
