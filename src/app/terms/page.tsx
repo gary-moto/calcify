@@ -4,6 +4,7 @@ import CalculatorLayout from "@/components/CalculatorLayout";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description: "Terms of Use for Calcify - Free Online Calculators.",
+  alternates: { canonical: "https://calcify.io/terms" },
 };
 
 export default function TermsPage() {

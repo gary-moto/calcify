@@ -4,6 +4,7 @@ import CalculatorLayout from "@/components/CalculatorLayout";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy Policy for Calcify - Free Online Calculators. Learn how we handle your data.",
+  alternates: { canonical: "https://calcify.io/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {

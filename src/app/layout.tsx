@@ -30,9 +30,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Calcify" }],
   metadataBase: new URL("https://calcify.io"),
-  alternates: {
-    canonical: "https://calcify.io",
-  },
+  alternates: {},
   openGraph: {
     type: "website",
     locale: "en_US",
