@@ -1,6 +1,14 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { Calendar, Percent, Clock, Receipt, ArrowRight, Baby, Scale, Landmark, FileText } from "lucide-react";
 import CalculatorLayout from "@/components/CalculatorLayout";
+
+export const metadata: Metadata = {
+  title: "Calcify - Free Online Calculators",
+  description: "Free online calculators for pregnancy, age, tip, date, percentage, tariff, mortgage, and tax. Fast, accurate, and easy to use.",
+  alternates: { canonical: "https://calcify.io" },
+  keywords: ["online calculator", "free calculator", "pregnancy calculator", "age calculator", "tip calculator", "mortgage calculator", "tax calculator", "percentage calculator", "date calculator", "tariff calculator", "calcify"],
+};
 
 const calculators = [
   {
